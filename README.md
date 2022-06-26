@@ -3,9 +3,7 @@
 ## REQUIREMENTS
 
 - Install PyTorch and all requirements using:
-      pip install -r requirements.txt
-
-We download MNIST and CIFAR-10/100 datasets directly from torchvision
+      `pip install -r requirements.txt`
 
 
 
