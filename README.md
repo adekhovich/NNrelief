@@ -15,6 +15,7 @@ If you use default settings, you obtain LeNet-5 pretrained model.
 
 - To train the model in the paper, run this command:
 
+
 python train.py --dataset_name <dataset> \                         # default=mnist, options = {mnist, cifar10, cifar100}
                 --path_data <path to save/load dataset> \          # default='./'
                 --download_data  <download dataset>  \             # default=True, options = {True, False}
