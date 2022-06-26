@@ -4,7 +4,7 @@
 
 - Install PyTorch and all requirements using:
 
-      `pip install -r requirements.txt`
+      pip install -r requirements.txt
 
 
 
