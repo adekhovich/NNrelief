@@ -102,13 +102,13 @@ run the following command:
 --alpha_conv 0.95 --alpha_fc 0.95 --num_iters 6 --retrain_epochs 60 --optimizer adam --lr 0.001 --decay_epochs_train 20 40`
 
 
-3)if you want to prune ResNet-20 model (from the folder pretrained_models) on CIFAR-10 with SGD optimizer and hyperparameters from the paper, 
+3) if you want to prune ResNet-20 model (from the folder pretrained_models) on CIFAR-10 with SGD optimizer and hyperparameters from the paper, 
 run the following command:
 
 `python eval.py --dataset_name cifar10  --model_name resnet20 --path_pretrained_model pretrained_models/resnet20_pretrained_sgd_wd5e-4_cifar10_seed0.pth 
                --alpha_conv 0.95 --alpha_fc 0.99 --num_iters 10 --retrain_epochs 60 --optimizer sgd --lr 0.1 --decay_epochs_train 20 40`
 
-4)if you want to prune ResNet-56 model (from the folder pretrained_models) on CIFAR-100 with Adam optimizer and hyperparameters from the paper, 
+4) if you want to prune ResNet-56 model (from the folder pretrained_models) on CIFAR-100 with Adam optimizer and hyperparameters from the paper, 
 run the following command:
 
 `python eval.py --dataset_name cifar100  --model_name resnet56 --path_pretrained_model pretrained_models/resnet56_pretrained_adam_wd5e-4_cifar100_seed0.pth 
